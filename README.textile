@@ -1,8 +1,6 @@
 h1. Introbot
 
-The idea here is to take "lalita":https://launchpad.net/lalita/ , which is
-already an easy-to-use irc bot, and make it easy for someone completely new
-to programming to write an IRC bot.
+The idea here is to take "lalita":https://launchpad.net/lalita/ , which is already an easy-to-use irc bot, and make it easy for someone completely new to programming to write an IRC bot.
 
 h2. Getting started
 
@@ -17,17 +15,14 @@ h2. Getting started
 
 h2. Hacking
 
-* open @introbot/actions.py@ and edit it.  Don't look at the other files - they
-  are not introductory-level.
+* open @introbot/actions.py@ and edit it.  Don't look at the other files - they are not introductory-level.
 * to run your bot without an IRC server, run @textbot@ instead.
 
 h2. Suggestions
 
 * Use 'if' statemnts to respond to some commands like "dance" or "yo mamma"
 ** use string operations to break commands apart: @split@ or @startswith@
-* Use the
- "random.choice":http://docs.python.org/library/random.html#random.choice
- function to choose a random quote on request
+* Use the "random.choice":http://docs.python.org/library/random.html#random.choice function to choose a random quote on request
 * Use a dictionary to give answers to questions posed in IRC
 * Reply to everything in ROT13
 
