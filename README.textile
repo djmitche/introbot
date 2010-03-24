@@ -1,0 +1,16 @@
+h1. Introbot
+
+The idea here is to take lalita (https://launchpad.net/lalita/), which is
+already an easy-to-use irc bot, and make it easy for someone completely new
+to programming to write an IRC bot.
+
+h2. Getting started
+
+* download this project and untar/unzip it
+* download virtualenv (http://bitbucket.org/ianb/virtualenv/raw/e771e026dff3/virtualenv.py)
+* run @virtualenv.py sandbox@
+* run @source sandbox/bin/activate@
+** this gets you a "sandboxed" python install, so you can install whatever other stuff you need
+* run @python setup.py develop@
+* run @infobot #channelname@.  Your bot will appear in #channelname on freenode.
+* you can ping the bot in IRC with something like "dustinbot: ping"
