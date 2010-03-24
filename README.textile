@@ -4,7 +4,7 @@ The idea here is to take "lalita":https://launchpad.net/lalita/ , which is alrea
 
 h2. Getting started
 
-* download this project (use the download link in github) and untar/unzip it
+* download this project (use the "Download Source" button up top in github) and untar or unzip it
 * optional: this gets you a "sandboxed" python install, so you can install whatever other stuff you need
 ** download "virtualenv":http://bitbucket.org/ianb/virtualenv/raw/e771e026dff3/virtualenv.py
 ** run @virtualenv.py sandbox@
