@@ -1,16 +1,36 @@
 h1. Introbot
 
-The idea here is to take lalita (https://launchpad.net/lalita/), which is
+The idea here is to take "lalita":https://launchpad.net/lalita/ , which is
 already an easy-to-use irc bot, and make it easy for someone completely new
 to programming to write an IRC bot.
 
 h2. Getting started
 
-* download this project and untar/unzip it
-* download virtualenv (http://bitbucket.org/ianb/virtualenv/raw/e771e026dff3/virtualenv.py)
-* run @virtualenv.py sandbox@
-* run @source sandbox/bin/activate@
-** this gets you a "sandboxed" python install, so you can install whatever other stuff you need
+* download this project (use the download link in github) and untar/unzip it
+* optional: this gets you a "sandboxed" python install, so you can install whatever other stuff you need
+** download "virtualenv":http://bitbucket.org/ianb/virtualenv/raw/e771e026dff3/virtualenv.py
+** run @virtualenv.py sandbox@
+** run @source sandbox/bin/activate@
 * run @python setup.py develop@
-* run @infobot #channelname@.  Your bot will appear in #channelname on freenode.
+* run @introbot channelname@.  Your bot will appear in #channelname on freenode.
 * you can ping the bot in IRC with something like "dustinbot: ping"
+
+h2. Hacking
+
+* open @introbot/actions.py@ and edit it.  Don't look at the other files - they
+  are not introductory-level.
+* to run your bot without an IRC server, run @textbot@ instead.
+
+h2. Suggestions
+
+* Use 'if' statemnts to respond to some commands like "dance" or "yo mamma"
+** use string operations to break commands apart: @split@ or @startswith@
+* Use the
+ "random.choice":http://docs.python.org/library/random.html#random.choice
+ function to choose a random quote on request
+* Use a dictionary to give answers to questions posed in IRC
+* Reply to everything in ROT13
+
+h1. Reference
+
+* "Google's Python Class":http://code.google.com/edu/languages/google-python-class/
